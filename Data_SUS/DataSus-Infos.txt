@@ -1,0 +1,21 @@
+
+
+ftp.datasus.gov.br
+
+Arquivos:
+	CH: Arquivo de Cadastro de Hospitais
+	RD: Significa Reduzido de AIH (é a base principal do SIH, focada em morbidade e epidemiologia).
+	MT: MT: Arquivo Mestre de internações hospitalares (Antiga versão do SIHSUS)
+
+	Dados mais recentes:
+		/dissemin/publicos/SIHSUS/200801_/Dados
+	
+
+-- Sistema de Informações Hospitalares do SUS – SIHSUS
+-- Contém a descrição dos campos
+https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacoes-hospitalares-do-sus-sihsus/dicionario-de-variaveis/
+
+
+CHBR
+CMBR
+ERAC

@@ -1,0 +1,5 @@
+Duração das ondas de calor (dias)
+Frequência das ondas de calor (dias)
+Número de ondas de calor (eventos)
+Temperatura extrema baixa (°C abaixo do percentil 5)
+Temperatura extrema alta (°C acima do percentil 95)

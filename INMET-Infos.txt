@@ -1,0 +1,27 @@
+INMET
+
+
+	https://portal.inmet.gov.br/dadoshistoricos
+	
+	
+
+ Download de Dados Históricos via Request (Arquivos Anuais)
+ 
+ O método mais eficiente para baixar os dados de umidade de todo o Brasil de uma só vez é disparar requisições para as URLs estáticas dos pacotes anuais do 
+ BDMEP (Banco de Dados Meteorológicos).
+ Padrão da URL: https://portal.inmet.gov.br/uploads/dadoshistoricos/{ANO}.zip
+ Como funciona: Substitua {ANO} pelo ano desejado (ex: 2025).
+ O que você recebe: Um arquivo ZIP contendo centenas de arquivos CSV. 
+ Cada arquivo CSV representa uma estação meteorológica do Brasil com dados horários de umidade relativa, temperatura e chuva.
+ 
+ 
+ 
+ 
+ Dados de todas as estações (Hora em Hora): https://inmet.gov.br{DATA}/{HORA}
+ (Exemplo de formato de data: 2026-07-15 e hora: 1200)
+ 
+ https://apitempo.inmet.gov.br/2026-07-05/1000
+ 
+ 
+ 
+ Dados diários de uma estação específica por período:https://inmet.gov.br{DATA_INICIO}/{DATA_FIM}/{Código_da_Estação}

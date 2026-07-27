@@ -1,0 +1,30 @@
+https://ads.atmosphere.copernicus.eu/datasets/cams-global-reanalysis-eac4?tab=download
+
+Documentação
+https://confluence.ecmwf.int/spaces/CKB/pages/83395896/CAMS+Reanalysis+data+documentation#CAMS:Reanalysisdatadocumentation-Table1
+
+Poluição do ar - PM₂.₅ 	(µg/m3)	-> Particulate matter d < 2.5 µm (PM2.5) (pm2p5)	- Single Level	- kg m-³	- Partículas com diâmetro inferior a 2,5 µm (PM2,5)
+Poluição do ar - SO₂ 	(µg/m3)	-> Sulphur dioxide (so2)							- Single Level	- kg kg-¹ 	- Dióxido de enxofre
+Poluição do ar - SO₂ 	(µg/m3)	-> Total column sulphur dioxide* (kg m-2) (tcso2)	- Multi Level	- kg m-² 	- Dióxido de enxofre
+
+Poluição do ar - NO₂ 	(ppb)	-> Nitrogen dioxide (no2)							- Multi level	- kg kg-¹	- dióxido de nitrogênio na coluna total
+Poluição do ar - O₃ 		(ppb)	-> Ozone (o3)										- Multi level	- kg kg-¹	- ozonio total na coluna
+Poluição do ar - CO 	(ppb)	-> Carbon monoxide (co)								- Multi level	- kg kg-¹ 	- Monóxido de carbono
+
+
+
+µg/m3 	= micrograma por metro cúbico
+ppb		= parter por bilhão
+
+Ver solicitações:
+	https://ads.atmosphere.copernicus.eu/requests?tab=all
+
+Acesso:
+url: https://ads.atmosphere.copernicus.eu/api
+key: 34161618-bf6b-41ca-9272-50b917f789b9/
+
+
+Diego Mariano
+
+Daniel Pereira Lazaro
+
