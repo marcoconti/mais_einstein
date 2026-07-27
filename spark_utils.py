@@ -27,5 +27,6 @@ def get_spark_session(app_name="NotebookSession", driver_mem="8g", exec_mem="8g"
         .config("spark.driver.memory", driver_mem) \
         .config("spark.executor.memory", exec_mem) \
         .getOrCreate()
+   
 
     return spark
