@@ -1,0 +1,80 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="EkMO-fKV83kikBYElQ1e">
+    <mxGraphModel dx="1414" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6bdQp3_qmsruyn512YeO-15" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;whiteSpace=wrap;" value="Cenário I - MAIS v2 - Web Page" vertex="1">
+          <mxGeometry height="510" width="1130" x="392" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-16" parent="6bdQp3_qmsruyn512YeO-15" style="swimlane;html=1;startSize=20;horizontal=0;" value="Eng. Dados ESG" vertex="1">
+          <mxGeometry height="130" width="1110" x="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-22" parent="6bdQp3_qmsruyn512YeO-16" style="rounded=1;whiteSpace=wrap;html=1;" value="Criar documentação sobre as origens dos dados" vertex="1">
+          <mxGeometry height="60" width="120" x="48" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-38" parent="6bdQp3_qmsruyn512YeO-16" style="rounded=1;whiteSpace=wrap;html=1;" value="Upload de arquivos no Data4U" vertex="1">
+          <mxGeometry height="50" width="110" x="611" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-17" parent="6bdQp3_qmsruyn512YeO-15" style="swimlane;html=1;startSize=20;horizontal=0;" value="Governança" vertex="1">
+          <mxGeometry height="120" width="1110" x="20" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-26" parent="6bdQp3_qmsruyn512YeO-17" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Validar padrões e&amp;nbsp; permissões" vertex="1">
+          <mxGeometry height="60" width="120" x="197" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-31" edge="1" parent="6bdQp3_qmsruyn512YeO-17" source="6bdQp3_qmsruyn512YeO-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6bdQp3_qmsruyn512YeO-36" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="487" y="61" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-33" connectable="0" parent="6bdQp3_qmsruyn512YeO-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Sim" vertex="1">
+          <mxGeometry relative="1" x="0.0286" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-30" parent="6bdQp3_qmsruyn512YeO-17" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" value="Doc. Ok?" vertex="1">
+          <mxGeometry height="50" width="50" x="357" y="31" as="geometry" />
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-35" edge="1" parent="6bdQp3_qmsruyn512YeO-17" source="6bdQp3_qmsruyn512YeO-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6bdQp3_qmsruyn512YeO-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-36" parent="6bdQp3_qmsruyn512YeO-17" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Criar Schema e Liberar updload de arquivos" vertex="1">
+          <mxGeometry height="60" width="110" x="467" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-18" parent="6bdQp3_qmsruyn512YeO-15" style="swimlane;html=1;startSize=20;horizontal=0;" value="Eng. Dados Core" vertex="1">
+          <mxGeometry height="140" width="1110" x="20" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-41" parent="6bdQp3_qmsruyn512YeO-18" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;" value="Criar camada&amp;nbsp;&lt;div&gt;GOLD&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="118" x="607" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-45" parent="6bdQp3_qmsruyn512YeO-18" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Disponibiliza dados no Lake Base (Postgres)" vertex="1">
+          <mxGeometry height="60" width="124" x="774" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-46" edge="1" parent="6bdQp3_qmsruyn512YeO-18" source="6bdQp3_qmsruyn512YeO-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6bdQp3_qmsruyn512YeO-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-20" parent="6bdQp3_qmsruyn512YeO-15" style="swimlane;html=1;startSize=20;horizontal=0;" value="Dev Web" vertex="1">
+          <mxGeometry height="120" width="1110" x="20" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-47" parent="6bdQp3_qmsruyn512YeO-20" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Consumir dados dados do Lake Base" vertex="1">
+          <mxGeometry height="60" width="124" x="774" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-40" edge="1" parent="6bdQp3_qmsruyn512YeO-15" source="6bdQp3_qmsruyn512YeO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="6bdQp3_qmsruyn512YeO-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-42" edge="1" parent="6bdQp3_qmsruyn512YeO-15" source="6bdQp3_qmsruyn512YeO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="6bdQp3_qmsruyn512YeO-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-48" edge="1" parent="6bdQp3_qmsruyn512YeO-15" source="6bdQp3_qmsruyn512YeO-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6bdQp3_qmsruyn512YeO-47" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-49" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Criar camada de apresentação&amp;nbsp;&lt;div&gt;Web Page&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="124" x="1361" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="6bdQp3_qmsruyn512YeO-50" edge="1" parent="1" source="6bdQp3_qmsruyn512YeO-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6bdQp3_qmsruyn512YeO-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
