@@ -1,0 +1,115 @@
+﻿nome_campo,tipo_pyspark,tipo_postgresql,descricao_campo,exemplo_conteudo
+OGC_FID,IntegerType,BIGINT,Identificador único de feição (SIG/Geodados),1
+UF_ZI,StringType,VARCHAR(6),Município gestor/UF de internação,355030
+ANO_CMPT,StringType,VARCHAR(4),Ano do processamento da AIH (AAAAMM),2024
+MES_CMPT,StringType,VARCHAR(2),Mês do processamento da AIH,01
+ESPEC,StringType,VARCHAR(2),Especialidade do leito,03
+CGC_HOSP,StringType,VARCHAR(14),CNPJ/CGC do hospital executor,00000000000000
+N_AIH,StringType,VARCHAR(13),Número da AIH gerada,3524100000000
+IDENT,StringType,VARCHAR(1),"Tipo de identificação da AIH (1-Normal, 3-Corte)",1
+CEP,StringType,VARCHAR(8),CEP do paciente,05700000
+MUNIC_RES,StringType,VARCHAR(6),Código IBGE (6 dígitos) de residência do paciente,355030
+NASC,StringType,VARCHAR(8),Data de nascimento do paciente (AAAAMMDD),19800512
+SEXO,StringType,VARCHAR(1),"Sexo do paciente (1-M, 3-F, 0-Ignorado)",1
+UTI_MES_IN,IntegerType,INT,Diárias UTI infantil no mês,0
+UTI_MES_AN,IntegerType,INT,Diárias UTI adulto no mês,0
+UTI_MES_AL,IntegerType,INT,Diárias UTI neonatal no mês,0
+UTI_MES_TO,IntegerType,INT,Qtd. total de diárias em UTI no mês,0
+MARCA_UTI,StringType,VARCHAR(2),Tipo/Marca de UTI utilizada,00
+UTI_INT_IN,IntegerType,INT,Diárias UTI infantil no período total,0
+UTI_INT_AN,IntegerType,INT,Diárias UTI adulto no período total,0
+UTI_INT_AL,IntegerType,INT,Diárias UTI neonatal no período total,0
+UTI_INT_TO,IntegerType,INT,Qtd. total de diárias em UTI na internação,0
+DIAR_ACOM,IntegerType,INT,Diárias de acompanhante,0
+QT_DIARIAS,IntegerType,INT,Quantidade total de diárias do paciente,5
+PROC_SOLIC,StringType,VARCHAR(10),Código do procedimento solicitado,0303010037
+PROC_REA,StringType,VARCHAR(10),Código do procedimento realizado,0303010037
+VAL_SH,DoubleType,"NUMERIC(12,2)",Valor dos serviços hospitalares (R$),850.50
+VAL_SP,DoubleType,"NUMERIC(12,2)",Valor dos serviços profissionais (R$),200.00
+VAL_SADT,DoubleType,"NUMERIC(12,2)",Valor de exames/SADT (R$),150.30
+VAL_RN,DoubleType,"NUMERIC(12,2)",Valor recém-nascido (R$),0.00
+VAL_ACOMP,DoubleType,"NUMERIC(12,2)",Valor acompanhante (R$),0.00
+VAL_ORTP,DoubleType,"NUMERIC(12,2)",Valor ortose/prótese (R$),0.00
+VAL_SANGUE,DoubleType,"NUMERIC(12,2)",Valor hemoterapia/sangue (R$),0.00
+VAL_SADTSR,DoubleType,"NUMERIC(12,2)",Valor SADT sem resposta (R$),0.00
+VAL_TRANSP,DoubleType,"NUMERIC(12,2)",Valor transporte (R$),0.00
+VAL_OBSANG,DoubleType,"NUMERIC(12,2)",Valor obtenção de sangue (R$),0.00
+VAL_PED1AC,DoubleType,"NUMERIC(12,2)",Valor pediatria 1º acompanhante (R$),0.00
+VAL_TOT,DoubleType,"NUMERIC(12,2)",Valor total pago da AIH (R$),1200.80
+VAL_UTI,DoubleType,"NUMERIC(12,2)",Valor gasto com UTI (R$),0.00
+US_TOT,DoubleType,"NUMERIC(12,2)",Valor em dólar (histórico),0.00
+DT_INTER,StringType,VARCHAR(8),Data de internação (AAAAMMDD),20240110
+DT_SAIDA,StringType,VARCHAR(8),Data de saída ou óbito (AAAAMMDD),20240115
+DIAG_PRINC,StringType,VARCHAR(4),CID-10 do diagnóstico principal,A90
+DIAG_SECUN,StringType,VARCHAR(4),CID-10 do diagnóstico secundário,I10
+COBRANCA,StringType,VARCHAR(2),Motivo de encerramento/cobrança/saída,11
+NATUREZA,StringType,VARCHAR(2),Natureza do hospital,01
+NAT_JUR,StringType,VARCHAR(4),Natureza jurídica da instituição,1015
+GESTAO,StringType,VARCHAR(1),Tipo de gestão do estabelecimento,1
+RUBRICA,StringType,VARCHAR(2),Rubrica orçamentária,00
+IND_VDRL,StringType,VARCHAR(1),Indicador de exame VDRL (S/N),N
+MUNIC_MOV,StringType,VARCHAR(6),Código IBGE do município do prestador,355030
+COD_IDADE,StringType,VARCHAR(1),"Unidade de medida da idade (4-Anos, 3-Meses, 2-Dias)",4
+IDADE,IntegerType,INT,Idade do paciente,45
+DIAS_PERM,IntegerType,INT,Dias de permanência no hospital,5
+MORTE,IntegerType,INT,"Indicador de óbito hospitalar (1-Sim, 0-Não)",0
+NACIONAL,StringType,VARCHAR(3),Código do país de nacionalidade,010
+NUM_PROC,StringType,VARCHAR(10),Número da autorização do procedimento,0000000000
+CAR_INT,StringType,VARCHAR(2),"Caráter da internação (01-Eletiva, 02-Urgência)",02
+TOT_PT_SP,DoubleType,"NUMERIC(8,2)",Total de pontos de serviços profissionais,0.00
+CPF_AUT,StringType,VARCHAR(11),CPF do autorizador da AIH,00000000000
+HOMONIMO,StringType,VARCHAR(1),Indicador de paciente homônimo (S/N),N
+NUM_FILHOS,IntegerType,INT,Número de filhos do paciente,2
+INSTRU,StringType,VARCHAR(1),Grau de instrução/Escolaridade,2
+CID_NOTIF,StringType,VARCHAR(4),CID de notificação compulsória,A90
+CONTRACEP1,StringType,VARCHAR(2),Método contraceptivo 1,00
+CONTRACEP2,StringType,VARCHAR(2),Método contraceptivo 2,00
+GESTRISCO,StringType,VARCHAR(1),Indicador de gestação de alto risco (S/N),N
+INSC_PN,StringType,VARCHAR(12),Número de inscrição no Pré-Natal,000000000000
+SEQ_AIH5,StringType,VARCHAR(3),Sequencial de renovação de AIH de longa permanência,000
+CBOR,StringType,VARCHAR(6),Ocupação do paciente (CBO),322205
+CNAER,StringType,VARCHAR(7),CNAE do empregador do paciente,0000000
+VINCPREV,StringType,VARCHAR(1),Vínculo com a Previdência Social,1
+GESTOR_COD,StringType,VARCHAR(15),Código do gestor,000000000000000
+GESTOR_TP,StringType,VARCHAR(2),Tipo do gestor,01
+GESTOR_CPF,StringType,VARCHAR(11),CPF do gestor,00000000000
+GESTOR_DT,StringType,VARCHAR(8),Data da assinatura/aprovação do gestor (AAAAMMDD),20240115
+CNES,StringType,VARCHAR(7),Código CNES do estabelecimento de saúde,2077485
+CNPJ_MANT,StringType,VARCHAR(14),CNPJ da mantenedora do hospital,00000000000000
+INFEHOSP,StringType,VARCHAR(1),Indicador de infecção hospitalar (S/N),N
+CID_ASSO,StringType,VARCHAR(4),CID de causa associada,0000
+CID_MORTE,StringType,VARCHAR(4),CID de causa do óbito hospitalar,0000
+COMPLEX,StringType,VARCHAR(2),"Complexidade da assistência (01-Atenção Básica, 02-Média, 03-Alta)",03
+FINANC,StringType,VARCHAR(2),Tipo de financiamento do bloco do SUS,04
+FAEC_TP,StringType,VARCHAR(6),Tipo de fundo FAEC (Fundo de Ações Estratégicas e Compensação),000000
+REGCT,StringType,VARCHAR(4),Regra contratual do estabelecimento,0000
+RACA_COR,StringType,VARCHAR(2),Raça/Cor do paciente,03
+ETNIA,StringType,VARCHAR(4),Etnia indígena (quando RACA_COR = 05),0000
+SEQUENCIA,IntegerType,INT,Sequência da remessa,1
+REMESSA,StringType,VARCHAR(21),Identificador da remessa enviada ao DATASUS,000000000000000000000
+AUD_JUST,StringType,VARCHAR(4),Código de justificativa da auditoria,0000
+SIS_JUST,StringType,VARCHAR(4),Código de justificativa do sistema,0000
+VAL_SH_FED,DoubleType,"NUMERIC(12,2)",Valor SH complemento federal (R$),0.00
+VAL_SP_FED,DoubleType,"NUMERIC(12,2)",Valor SP complemento federal (R$),0.00
+VAL_SH_GES,DoubleType,"NUMERIC(12,2)",Valor SH complemento gestor (R$),0.00
+VAL_SP_GES,DoubleType,"NUMERIC(12,2)",Valor SP complemento gestor (R$),0.00
+VAL_UCI,DoubleType,"NUMERIC(12,2)",Valor Unidade Cuidados Intermediários (R$),0.00
+MARCA_UCI,StringType,VARCHAR(2),Tipo/Marca de UCI,00
+DIAGSEC1,StringType,VARCHAR(4),Diagnóstico secundário 1 (CID-10),0000
+DIAGSEC2,StringType,VARCHAR(4),Diagnóstico secundário 2 (CID-10),0000
+DIAGSEC3,StringType,VARCHAR(4),Diagnóstico secundário 3 (CID-10),0000
+DIAGSEC4,StringType,VARCHAR(4),Diagnóstico secundário 4 (CID-10),0000
+DIAGSEC5,StringType,VARCHAR(4),Diagnóstico secundário 5 (CID-10),0000
+DIAGSEC6,StringType,VARCHAR(4),Diagnóstico secundário 6 (CID-10),0000
+DIAGSEC7,StringType,VARCHAR(4),Diagnóstico secundário 7 (CID-10),0000
+DIAGSEC8,StringType,VARCHAR(4),Diagnóstico secundário 8 (CID-10),0000
+DIAGSEC9,StringType,VARCHAR(4),Diagnóstico secundário 9 (CID-10),0000
+TPDISEC1,StringType,VARCHAR(2),Tipo do diagnóstico secundário 1,00
+TPDISEC2,StringType,VARCHAR(2),Tipo do diagnóstico secundário 2,00
+TPDISEC3,StringType,VARCHAR(2),Tipo do diagnóstico secundário 3,00
+TPDISEC4,StringType,VARCHAR(2),Tipo do diagnóstico secundário 4,00
+TPDISEC5,StringType,VARCHAR(2),Tipo do diagnóstico secundário 5,00
+TPDISEC6,StringType,VARCHAR(2),Tipo do diagnóstico secundário 6,00
+TPDISEC7,StringType,VARCHAR(2),Tipo do diagnóstico secundário 7,00
+TPDISEC8,StringType,VARCHAR(2),Tipo do diagnóstico secundário 8,00
+TPDISEC9,StringType,VARCHAR(2),Tipo do diagnóstico secundário 9,00

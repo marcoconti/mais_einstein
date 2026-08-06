@@ -1,0 +1,798 @@
+OGC_FID:
+  description: "Identificador único de feição (SIG/Geodados)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+UF_ZI:
+  description: "Município gestor/UF de internação"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+ANO_CMPT:
+  description: "Ano do processamento da AIH (AAAAMM)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+MES_CMPT:
+  description: "Mês do processamento da AIH"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+ESPEC:
+  description: "Especialidade do leito"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+CGC_HOSP:
+  description: "CNPJ/CGC do hospital executor"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+N_AIH:
+  description: "Número da AIH gerada"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+IDENT:
+  description: "Tipo de identificação da AIH (1-Normal, 3-Corte)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+CEP:
+  description: "CEP do paciente"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+MUNIC_RES:
+  description: "Código IBGE (6 dígitos) de residência do paciente"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+NASC:
+  description: "Data de nascimento do paciente (AAAAMMDD)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+SEXO:
+  description: "Sexo do paciente (1-M, 3-F, 0-Ignorado)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+UTI_MES_IN:
+  description: "Diárias UTI infantil no mês"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+UTI_MES_AN:
+  description: "Diárias UTI adulto no mês"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+UTI_MES_AL:
+  description: "Diárias UTI neonatal no mês"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+UTI_MES_TO:
+  description: "Qtd. total de diárias em UTI no mês"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+MARCA_UTI:
+  description: "Tipo/Marca de UTI utilizada"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+UTI_INT_IN:
+  description: "Diárias UTI infantil no período total"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+UTI_INT_AN:
+  description: "Diárias UTI adulto no período total"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+UTI_INT_AL:
+  description: "Diárias UTI neonatal no período total"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+UTI_INT_TO:
+  description: "Qtd. total de diárias em UTI na internação"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+DIAR_ACOM:
+  description: "Diárias de acompanhante"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+QT_DIARIAS:
+  description: "Quantidade total de diárias do paciente"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+PROC_SOLIC:
+  description: "Código do procedimento solicitado"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+PROC_REA:
+  description: "Código do procedimento realizado"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+VAL_SH:
+  description: "Valor dos serviços hospitalares (R$)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+VAL_SP:
+  description: "Valor dos serviços profissionais (R$)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+VAL_SADT:
+  description: "Valor de exames/SADT (R$)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+VAL_RN:
+  description: "Valor recém-nascido (R$)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+VAL_ACOMP:
+  description: "Valor acompanhante (R$)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+VAL_ORTP:
+  description: "Valor ortose/prótese (R$)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+VAL_SANGUE:
+  description: "Valor hemoterapia/sangue (R$)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+VAL_SADTSR:
+  description: "Valor SADT sem resposta (R$)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+VAL_TRANSP:
+  description: "Valor transporte (R$)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+VAL_OBSANG:
+  description: "Valor obtenção de sangue (R$)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+VAL_PED1AC:
+  description: "Valor pediatria 1º acompanhante (R$)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+VAL_TOT:
+  description: "Valor total pago da AIH (R$)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+VAL_UTI:
+  description: "Valor gasto com UTI (R$)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+US_TOT:
+  description: "Valor em dólar (histórico)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+DT_INTER:
+  description: "Data de internação (AAAAMMDD)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+DT_SAIDA:
+  description: "Data de saída ou óbito (AAAAMMDD)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+DIAG_PRINC:
+  description: "CID-10 do diagnóstico principal"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+DIAG_SECUN:
+  description: "CID-10 do diagnóstico secundário"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+COBRANCA:
+  description: "Motivo de encerramento/cobrança/saída"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+NATUREZA:
+  description: "Natureza do hospital"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+NAT_JUR:
+  description: "Natureza jurídica da instituição"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+GESTAO:
+  description: "Tipo de gestão do estabelecimento"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+RUBRICA:
+  description: "Rubrica orçamentária"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+IND_VDRL:
+  description: "Indicador de exame VDRL (S/N)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+MUNIC_MOV:
+  description: "Código IBGE do município do prestador"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+COD_IDADE:
+  description: "Unidade de medida da idade (4-Anos, 3-Meses, 2-Dias)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+IDADE:
+  description: "Idade do paciente"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+DIAS_PERM:
+  description: "Dias de permanência no hospital"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+MORTE:
+  description: "Indicador de óbito hospitalar (1-Sim, 0-Não)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+NACIONAL:
+  description: "Código do país de nacionalidade"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+NUM_PROC:
+  description: "Número da autorização do procedimento"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+CAR_INT:
+  description: "Caráter da internação (01-Eletiva, 02-Urgência)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+TOT_PT_SP:
+  description: "Total de pontos de serviços profissionais"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+CPF_AUT:
+  description: "CPF do autorizador da AIH"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+HOMONIMO:
+  description: "Indicador de paciente homônimo (S/N)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+NUM_FILHOS:
+  description: "Número de filhos do paciente"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+INSTRU:
+  description: "Grau de instrução/Escolaridade"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+CID_NOTIF:
+  description: "CID de notificação compulsória"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+CONTRACEP1:
+  description: "Método contraceptivo 1"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+CONTRACEP2:
+  description: "Método contraceptivo 2"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+GESTRISCO:
+  description: "Indicador de gestação de alto risco (S/N)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+INSC_PN:
+  description: "Número de inscrição no Pré-Natal"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+SEQ_AIH5:
+  description: "Sequencial de renovação de AIH de longa permanência"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+CBOR:
+  description: "Ocupação do paciente (CBO)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+CNAER:
+  description: "CNAE do empregador do paciente"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+VINCPREV:
+  description: "Vínculo com a Previdência Social"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+GESTOR_COD:
+  description: "Código do gestor"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+GESTOR_TP:
+  description: "Tipo do gestor"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+GESTOR_CPF:
+  description: "CPF do gestor"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+GESTOR_DT:
+  description: "Data da assinatura/aprovação do gestor (AAAAMMDD)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+CNES:
+  description: "Código CNES do estabelecimento de saúde"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+CNPJ_MANT:
+  description: "CNPJ da mantenedora do hospital"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+INFEHOSP:
+  description: "Indicador de infecção hospitalar (S/N)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+CID_ASSO:
+  description: "CID de causa associada"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+CID_MORTE:
+  description: "CID de causa do óbito hospitalar"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+COMPLEX:
+  description: "Complexidade da assistência (01-Atenção Básica, 02-Média, 03-Alta)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+FINANC:
+  description: "Tipo de financiamento do bloco do SUS"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+FAEC_TP:
+  description: "Tipo de fundo FAEC (Fundo de Ações Estratégicas e Compensação)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+REGCT:
+  description: "Regra contratual do estabelecimento"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+RACA_COR:
+  description: "Raça/Cor do paciente"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+ETNIA:
+  description: "Etnia indígena (quando RACA_COR = 05)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+SEQUENCIA:
+  description: "Sequência da remessa"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+REMESSA:
+  description: "Identificador da remessa enviada ao DATASUS"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+AUD_JUST:
+  description: "Código de justificativa da auditoria"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+SIS_JUST:
+  description: "Código de justificativa do sistema"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+VAL_SH_FED:
+  description: "Valor SH complemento federal (R$)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+VAL_SP_FED:
+  description: "Valor SP complemento federal (R$)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+VAL_SH_GES:
+  description: "Valor SH complemento gestor (R$)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+VAL_SP_GES:
+  description: "Valor SP complemento gestor (R$)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+VAL_UCI:
+  description: "Valor Unidade Cuidados Intermediários (R$)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+MARCA_UCI:
+  description: "Tipo/Marca de UCI"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+DIAGSEC1:
+  description: "Diagnóstico secundário 1 (CID-10)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+DIAGSEC2:
+  description: "Diagnóstico secundário 2 (CID-10)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+DIAGSEC3:
+  description: "Diagnóstico secundário 3 (CID-10)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+DIAGSEC4:
+  description: "Diagnóstico secundário 4 (CID-10)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+DIAGSEC5:
+  description: "Diagnóstico secundário 5 (CID-10)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+DIAGSEC6:
+  description: "Diagnóstico secundário 6 (CID-10)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+DIAGSEC7:
+  description: "Diagnóstico secundário 7 (CID-10)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+DIAGSEC8:
+  description: "Diagnóstico secundário 8 (CID-10)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+DIAGSEC9:
+  description: "Diagnóstico secundário 9 (CID-10)"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+TPDISEC1:
+  description: "Tipo do diagnóstico secundário 1"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+TPDISEC2:
+  description: "Tipo do diagnóstico secundário 2"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+TPDISEC3:
+  description: "Tipo do diagnóstico secundário 3"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+TPDISEC4:
+  description: "Tipo do diagnóstico secundário 4"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+TPDISEC5:
+  description: "Tipo do diagnóstico secundário 5"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+TPDISEC6:
+  description: "Tipo do diagnóstico secundário 6"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+TPDISEC7:
+  description: "Tipo do diagnóstico secundário 7"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+TPDISEC8:
+  description: "Tipo do diagnóstico secundário 8"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
+TPDISEC9:
+  description: "Tipo do diagnóstico secundário 9"
+  type: string
+  required: true
+  primaryKey: false
+  unique: false
+  pii: false
