@@ -75,7 +75,7 @@ def criar_client_cds_ERA5():
 def criar_client_cds_EAC4():
     client = cdsapi.Client(
         url = "https://ads.atmosphere.copernicus.eu/api",
-        key = "34161618-bf6b-41ca-9272-50b917f789b9"
+        key = ""
     )
 
     return client
