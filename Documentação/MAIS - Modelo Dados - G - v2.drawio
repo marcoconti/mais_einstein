@@ -1,0 +1,148 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="ZotRd8Zv5-QjdCQ1wF-C">
+    <mxGraphModel dx="1474" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t_dim_municipio" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout; horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#2B6CB0;fontColor=#FFFFFF;strokeColor=#2D3748;fontFamily=Helvetica;fontSize=12;rounded=1;shadow=1;" value="&lt;b&gt;dim_municipio&lt;/b&gt;" vertex="1">
+          <mxGeometry height="174" width="220" x="250" y="281" as="geometry" />
+        </mxCell>
+        <mxCell id="t_dim_municipio_r1" parent="t_dim_municipio" style="text;strokeColor=none;fillColor=#EBF8FF;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="🔑 cod_municipio : VARCHAR(7)" vertex="1">
+          <mxGeometry height="24" width="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_dim_municipio_r2" parent="t_dim_municipio" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="   nome_municipio : VARCHAR(100)" vertex="1">
+          <mxGeometry height="24" width="220" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="t_dim_municipio_r3" parent="t_dim_municipio" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="   uf : VARCHAR(2)" vertex="1">
+          <mxGeometry height="24" width="220" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="t_dim_municipio_r4" parent="t_dim_municipio" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="   bioma : VARCHAR(50)" vertex="1">
+          <mxGeometry height="24" width="220" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="t_dim_municipio_r5" parent="t_dim_municipio" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="   grande_regiao : VARCHAR(20)" vertex="1">
+          <mxGeometry height="24" width="220" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="t_dim_municipio_r6" parent="t_dim_municipio" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="   peso_area : DECIMAL(10,4)" vertex="1">
+          <mxGeometry height="24" width="220" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="t_dim_tempo" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout; horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#2B6CB0;fontColor=#FFFFFF;strokeColor=#2D3748;fontFamily=Helvetica;fontSize=12;rounded=1;shadow=1;" value="&lt;b&gt;dim_tempo&lt;/b&gt;" vertex="1">
+          <mxGeometry height="102" width="200" x="648" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="t_dim_tempo_r1" parent="t_dim_tempo" style="text;strokeColor=none;fillColor=#EBF8FF;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="🔑 id_tempo : INT (YYYYMM)" vertex="1">
+          <mxGeometry height="24" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_dim_tempo_r2" parent="t_dim_tempo" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="   ano : INT" vertex="1">
+          <mxGeometry height="24" width="200" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="t_dim_tempo_r3" parent="t_dim_tempo" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="   mes : INT" vertex="1">
+          <mxGeometry height="24" width="200" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="t_dim_perfil" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout; horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#2B6CB0;fontColor=#FFFFFF;strokeColor=#2D3748;fontFamily=Helvetica;fontSize=12;rounded=1;shadow=1;" value="&lt;b&gt;dim_grupo_idade&lt;/b&gt;" vertex="1">
+          <mxGeometry height="78" width="220" x="645" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="t_dim_perfil_r1" parent="t_dim_perfil" style="text;strokeColor=none;fillColor=#EBF8FF;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="🔑 id_grupo_idade : INT" vertex="1">
+          <mxGeometry height="24" width="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_dim_perfil_r2" parent="t_dim_perfil" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="   grupo_idade : VARCHAR(20)" vertex="1">
+          <mxGeometry height="24" width="220" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fato_saude" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout; horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#1A365D;fontColor=#FFFFFF;strokeColor=#2D3748;fontFamily=Helvetica;fontSize=12;rounded=1;shadow=1;" value="&lt;b&gt;fato_saude&lt;/b&gt;" vertex="1">
+          <mxGeometry height="174" width="240" x="240" y="521" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fato_saude_r1" parent="t_fato_saude" style="text;strokeColor=none;fillColor=#EDF2F7;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="🔑🔗 cod_municipio : VARCHAR(7)" vertex="1">
+          <mxGeometry height="24" width="240" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fato_saude_r2" parent="t_fato_saude" style="text;strokeColor=none;fillColor=#EDF2F7;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="🔑🔗 id_tempo : INT" vertex="1">
+          <mxGeometry height="24" width="240" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fato_saude_r3" parent="t_fato_saude" style="text;strokeColor=none;fillColor=#EDF2F7;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="🔑🔗 id_grupo_idade : INT" vertex="1">
+          <mxGeometry height="24" width="240" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="S8ThdEpaVs1Ln04O2iJ9-6" parent="t_fato_saude" style="text;strokeColor=none;fillColor=#EDF2F7;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="🔑🔗 id_raca_cor : INT" vertex="1">
+          <mxGeometry height="24" width="240" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fato_saude_r4" parent="t_fato_saude" style="text;strokeColor=none;fillColor=#EDF2F7;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="🔑 tipo_indicador : VARCHAR(100)" vertex="1">
+          <mxGeometry height="24" width="240" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fato_saude_r5" parent="t_fato_saude" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="   qtd_ocorrencias : INT" vertex="1">
+          <mxGeometry height="24" width="240" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fato_socio" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout; horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#1A365D;fontColor=#FFFFFF;strokeColor=#2D3748;fontFamily=Helvetica;fontSize=12;rounded=1;shadow=1;" value="&lt;b&gt;fato_socioeconomico&lt;/b&gt;" vertex="1">
+          <mxGeometry height="126" width="240" x="240" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fato_socio_r1" parent="t_fato_socio" style="text;strokeColor=none;fillColor=#EDF2F7;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="🔑🔗 cod_municipio : VARCHAR(7)" vertex="1">
+          <mxGeometry height="24" width="240" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fato_socio_r2" parent="t_fato_socio" style="text;strokeColor=none;fillColor=#EDF2F7;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="🔑🔗 id_tempo : INT" vertex="1">
+          <mxGeometry height="24" width="240" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fato_socio_r3" parent="t_fato_socio" style="text;strokeColor=none;fillColor=#EDF2F7;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="🔑 tipo_indicador : VARCHAR(100)" vertex="1">
+          <mxGeometry height="24" width="240" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fato_socio_r4" parent="t_fato_socio" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="   qtd_pessoas : INT" vertex="1">
+          <mxGeometry height="24" width="240" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fato_clima" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout; horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#1A365D;fontColor=#FFFFFF;strokeColor=#2D3748;fontFamily=Helvetica;fontSize=12;rounded=1;shadow=1;" value="&lt;b&gt;fato_clima_municipio&lt;/b&gt;" vertex="1">
+          <mxGeometry height="150" width="240" x="628" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fato_clima_r1" parent="t_fato_clima" style="text;strokeColor=none;fillColor=#EDF2F7;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="🔑🔗 cod_municipio : VARCHAR(7)" vertex="1">
+          <mxGeometry height="24" width="240" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fato_clima_r2" parent="t_fato_clima" style="text;strokeColor=none;fillColor=#EDF2F7;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="🔑🔗 id_tempo : INT" vertex="1">
+          <mxGeometry height="24" width="240" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fato_clima_r3" parent="t_fato_clima" style="text;strokeColor=none;fillColor=#EDF2F7;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="🔑 tipo_indicador : VARCHAR(100)" vertex="1">
+          <mxGeometry height="24" width="240" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fato_clima_r4" parent="t_fato_clima" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="   valor_indicador : DECIMAL(10,2)" vertex="1">
+          <mxGeometry height="24" width="240" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fato_clima_r5" parent="t_fato_clima" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="   unidade_medida : VARCHAR(20)" vertex="1">
+          <mxGeometry height="24" width="240" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_1" edge="1" parent="1" source="t_dim_municipio" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4A5568;strokeWidth=2;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0;fontFamily=Helvetica;fontSize=10;fontColor=#4A5568;labelBackgroundColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="t_fato_saude" value="1:N">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="rel_2" edge="1" parent="1" source="t_dim_municipio" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4A5568;strokeWidth=2;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0;fontFamily=Helvetica;fontSize=10;fontColor=#4A5568;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="t_fato_socio" value="1:N">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="rel_3" edge="1" parent="1" source="t_dim_municipio_r1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4A5568;strokeWidth=2;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0;fontFamily=Helvetica;fontSize=10;fontColor=#4A5568;labelBackgroundColor=#FFFFFF;" target="t_fato_clima_r1" value="1:N">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="rel_4" edge="1" parent="1" source="t_dim_tempo_r1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4A5568;strokeWidth=2;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0;fontFamily=Helvetica;fontSize=10;fontColor=#4A5568;labelBackgroundColor=#FFFFFF;" target="t_fato_saude_r2" value="1:N">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="rel_5" edge="1" parent="1" source="t_dim_tempo_r1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4A5568;strokeWidth=2;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0;fontFamily=Helvetica;fontSize=10;fontColor=#4A5568;labelBackgroundColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t_fato_socio" value="1:N">
+          <mxGeometry as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="422" />
+              <mxPoint x="910" y="50" />
+              <mxPoint x="360" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel_6" edge="1" parent="1" source="t_dim_tempo" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4A5568;strokeWidth=2;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0;fontFamily=Helvetica;fontSize=10;fontColor=#4A5568;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="t_fato_clima" value="1:N">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="rel_7" edge="1" parent="1" source="t_dim_perfil_r1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4A5568;strokeWidth=2;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0;fontFamily=Helvetica;fontSize=10;fontColor=#4A5568;labelBackgroundColor=#FFFFFF;" target="t_fato_saude_r3" value="1:N">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="S8ThdEpaVs1Ln04O2iJ9-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout; horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#2B6CB0;fontColor=#FFFFFF;strokeColor=#2D3748;fontFamily=Helvetica;fontSize=12;rounded=1;shadow=1;" value="&lt;b&gt;dim_raca_cor&lt;/b&gt;" vertex="1">
+          <mxGeometry height="78" width="220" x="648" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="S8ThdEpaVs1Ln04O2iJ9-2" parent="S8ThdEpaVs1Ln04O2iJ9-1" style="text;strokeColor=none;fillColor=#EBF8FF;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="🔑 id_raca_cor : INT" vertex="1">
+          <mxGeometry height="24" width="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S8ThdEpaVs1Ln04O2iJ9-4" parent="S8ThdEpaVs1Ln04O2iJ9-1" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A202C;" value="   raca_cor : VARCHAR(20)" vertex="1">
+          <mxGeometry height="24" width="220" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="S8ThdEpaVs1Ln04O2iJ9-5" edge="1" parent="1" source="S8ThdEpaVs1Ln04O2iJ9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4A5568;strokeWidth=2;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0;fontFamily=Helvetica;fontSize=10;fontColor=#4A5568;labelBackgroundColor=#FFFFFF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="t_fato_saude" value="1:N">
+          <mxGeometry as="geometry">
+            <mxPoint x="525" y="721" as="sourcePoint" />
+            <mxPoint x="360" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

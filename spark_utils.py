@@ -18,6 +18,11 @@ def get_spark_session(app_name="NotebookSession", driver_mem="8g", exec_mem="8g"
     # 3. Força o IP local
     os.environ['SPARK_LOCAL_IP'] = '127.0.0.1'
 
+    # Configura as variáveis do Hadoop
+    # os.environ["HADOOP_HOME"] = r"C:\hadoop"
+    # os.environ["PATH"] += os.pathsep + r"C:\hadoop\bin"
+
+
     # 4. Inicializa o Spark
     spark = SparkSession.builder \
         .appName(app_name) \
@@ -27,9 +32,12 @@ def get_spark_session(app_name="NotebookSession", driver_mem="8g", exec_mem="8g"
         .config("spark.network.auth.enabled", "false") \
         .config("spark.driver.memory", driver_mem) \
         .config("spark.executor.memory", exec_mem) \
+        .config("spark.driver.maxResultSize", "2g") \
+        .config("spark.hadoop.fs.file.impl", "org.apache.hadoop.fs.LocalFileSystem") \
+        .config("spark.hadoop.io.native.lib.available", "false") \
+        .config("spark.hadoop.fs.AbstractFileSystem.file.impl", "org.apache.hadoop.fs.local.LocalFs") \
         .getOrCreate()
    
-
     return spark
 
 def convert_nc_to_spark_dataframe(spark, path, file_name):

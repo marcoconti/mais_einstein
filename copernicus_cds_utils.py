@@ -297,6 +297,12 @@ def get_spark_session(app_name="NotebookSession", driver_mem="8g", exec_mem="8g"
     # 3. Força o IP local
     os.environ['SPARK_LOCAL_IP'] = '127.0.0.1'
 
+
+    # Configura as variáveis do Hadoop
+    os.environ["HADOOP_HOME"] = r"C:\hadoop"
+    os.environ["PATH"] += os.pathsep + r"C:\hadoop\bin"
+
+
     # 4. Inicializa o Spark
     spark = SparkSession.builder \
         .appName(app_name) \
