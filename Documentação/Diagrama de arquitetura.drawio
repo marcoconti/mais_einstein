@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Página-1" id="NIfreLnuVJAV2UJ_sArq">
-    <mxGraphModel dx="1112" dy="792" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1497" dy="849" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,9 +9,6 @@
         </mxCell>
         <mxCell id="src1" parent="c1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0066cc;fontStyle=1;" value="APIs REST&amp;nbsp;&lt;div&gt;Dados públicos:&lt;/div&gt;&lt;div&gt;- IBGE&lt;/div&gt;&lt;div&gt;- DataSUS&lt;/div&gt;&lt;div&gt;- INMET&lt;/div&gt;&lt;div&gt;- Climate Data Store&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="116" width="180" x="20" y="60" as="geometry" />
-        </mxCell>
-        <mxCell id="src3" parent="c1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0066cc;fontStyle=1;" value="Repositório Git&lt;div&gt;&amp;nbsp;&lt;div&gt;Storage Account&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="180" x="20" y="208" as="geometry" />
         </mxCell>
         <mxCell id="RBWDMJzxSnDTDk8GMnH0-1" parent="c1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0066cc;fontStyle=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Edge File Origin Input&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Arquivos estruturados:&amp;nbsp;&lt;div&gt;csv, txt, xlx&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="180" x="20" y="308" as="geometry" />
@@ -22,20 +19,26 @@
         <mxCell id="spark" parent="c2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0288d1;fontStyle=1;" value="Framework Einstein&lt;div&gt;&lt;br&gt;&lt;div&gt;Databricks Workflows &amp;amp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;ETL Pipelines&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="180" x="20" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="c3" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#f3e5f5;fontColor=#7b1fa2;strokeColor=#ce93d8;fontStyle=1;" value="3. ARMAZENAMENTO&lt;div&gt;(AZURE / DATABRICKS)&lt;/div&gt;" vertex="1">
+        <mxCell id="c3" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=51;fillColor=#f3e5f5;fontColor=#7b1fa2;strokeColor=#ce93d8;fontStyle=1;" value="3. ARMAZENAMENTO&lt;div&gt;(AZURE / DATABRICKS)&lt;/div&gt;&lt;div&gt;Tenant: SBIBAE - Região Brasil South&lt;/div&gt;" vertex="1">
           <mxGeometry height="420" width="280" x="560" y="80" as="geometry" />
         </mxCell>
         <mxCell id="bronze" parent="c3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#cd7f32;fontColor=#ffffff;strokeColor=#8c501e;fontStyle=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Bronze&lt;/font&gt;" vertex="1">
-          <mxGeometry height="70" width="240" x="20" y="50" as="geometry" />
+          <mxGeometry height="70" width="240" x="20" y="65" as="geometry" />
         </mxCell>
         <mxCell id="silver" parent="c3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#c0c0c0;fontColor=#333333;strokeColor=#7f7f7f;fontStyle=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Silver&lt;/font&gt;" vertex="1">
-          <mxGeometry height="70" width="240" x="20" y="140" as="geometry" />
+          <mxGeometry height="70" width="240" x="20" y="154" as="geometry" />
         </mxCell>
         <mxCell id="gold" parent="c3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffd700;fontColor=#333333;strokeColor=#b8860b;fontStyle=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Gold&lt;/font&gt;" vertex="1">
-          <mxGeometry height="70" width="240" x="20" y="230" as="geometry" />
+          <mxGeometry height="70" width="240" x="20" y="245" as="geometry" />
         </mxCell>
         <mxCell id="postgres" parent="c3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#336791;fontColor=#ffffff;strokeColor=#1d3f5e;fontStyle=1;" value="Lake Base&lt;br&gt;(PostgreSQL)" vertex="1">
-          <mxGeometry height="70" width="240" x="20" y="320" as="geometry" />
+          <mxGeometry height="70" width="240" x="20" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="h7RJs6YSfELTAlibRgUI-3" edge="1" parent="c3" source="gold" style="entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="postgres">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="303" as="sourcePoint" />
+            <mxPoint x="140" y="323" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="c4" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#e8f5e9;fontColor=#2e7d32;strokeColor=#a5d6a7;fontStyle=1;" value="4. APRESENTAÇÃO" vertex="1">
           <mxGeometry height="420" width="220" x="880" y="80" as="geometry" />
@@ -60,12 +63,6 @@
         </mxCell>
         <mxCell id="e9" edge="1" parent="1" source="postgres" style="exitX=1;exitY=0;exitDx=0;exitDy=45;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c4">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="h7RJs6YSfELTAlibRgUI-3" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="700" y="383" as="sourcePoint" />
-            <mxPoint x="700" y="403" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
