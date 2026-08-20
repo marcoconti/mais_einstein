@@ -1,0 +1,165 @@
+{
+    "dependencies": [
+        {
+            "name": "cdsapi",
+            "version": "0.7.7",
+            "vulns": []
+        },
+        {
+            "name": "xarray",
+            "version": "2026.7.0",
+            "vulns": []
+        },
+        {
+            "name": "netcdf4",
+            "version": "1.7.4",
+            "vulns": []
+        },
+        {
+            "name": "pyarrow",
+            "version": "25.0.0",
+            "vulns": []
+        },
+        {
+            "name": "geobr",
+            "version": "1.0.0",
+            "vulns": []
+        },
+        {
+            "name": "geopandas",
+            "version": "1.1.2",
+            "vulns": []
+        },
+        {
+            "name": "shapely",
+            "version": "2.1.0",
+            "vulns": []
+        },
+        {
+            "name": "html5lib",
+            "version": "1.1",
+            "vulns": []
+        },
+        {
+            "name": "lxml",
+            "version": "6.1.2",
+            "vulns": []
+        },
+        {
+            "name": "requests",
+            "version": "2.34.2",
+            "vulns": []
+        },
+        {
+            "name": "charset-normalizer",
+            "version": "3.5.1",
+            "vulns": []
+        },
+        {
+            "name": "idna",
+            "version": "3.19",
+            "vulns": []
+        },
+        {
+            "name": "urllib3",
+            "version": "2.7.0",
+            "vulns": []
+        },
+        {
+            "name": "certifi",
+            "version": "2026.7.22",
+            "vulns": []
+        },
+        {
+            "name": "duckdb",
+            "version": "1.5.5",
+            "vulns": []
+        },
+        {
+            "name": "ecmwf-datastores-client",
+            "version": "0.5.3",
+            "vulns": []
+        },
+        {
+            "name": "attrs",
+            "version": "26.1.0",
+            "vulns": []
+        },
+        {
+            "name": "multiurl",
+            "version": "0.3.9",
+            "vulns": []
+        },
+        {
+            "name": "numpy",
+            "version": "2.4.6",
+            "vulns": []
+        },
+        {
+            "name": "pandas",
+            "version": "3.0.5",
+            "vulns": []
+        },
+        {
+            "name": "pyogrio",
+            "version": "0.13.0",
+            "vulns": []
+        },
+        {
+            "name": "pyproj",
+            "version": "3.7.2",
+            "vulns": []
+        },
+        {
+            "name": "python-dateutil",
+            "version": "2.9.0.post0",
+            "vulns": []
+        },
+        {
+            "name": "rapidfuzz",
+            "version": "3.14.5",
+            "vulns": []
+        },
+        {
+            "name": "six",
+            "version": "1.17.0",
+            "vulns": []
+        },
+        {
+            "name": "typing-extensions",
+            "version": "4.16.0",
+            "vulns": []
+        },
+        {
+            "name": "cftime",
+            "version": "1.6.5",
+            "vulns": []
+        },
+        {
+            "name": "pytz",
+            "version": "2026.3.post1",
+            "vulns": []
+        },
+        {
+            "name": "tqdm",
+            "version": "4.70.0",
+            "vulns": []
+        },
+        {
+            "name": "colorama",
+            "version": "0.4.6",
+            "vulns": []
+        },
+        {
+            "name": "tzdata",
+            "version": "2026.3",
+            "vulns": []
+        },
+        {
+            "name": "webencodings",
+            "version": "0.6.1",
+            "vulns": []
+        }
+    ],
+    "fixes": []
+}
